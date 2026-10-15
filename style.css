@@ -42,27 +42,27 @@ textarea {
 
 /* ---------- Design Tokens — Color System ---------- */
 :root {
-  /* Burgundy ramp */
-  --burgundy-900: #2a0a12;
-  --burgundy-800: #3d0d1c;
-  --burgundy-700: #5c1230;
-  --burgundy-600: #7a1745;
-  --burgundy-500: #9c1f56;
-  --burgundy-400: #b83a72;
+  /* Deep Burgundy ramp */
+  --burgundy-900: #2a0510;
+  --burgundy-800: #3d0a18;
+  --burgundy-700: #5c1228;
+  --burgundy-600: #7a1838;
+  --burgundy-500: #9c2048;
+  --burgundy-400: #b83862;
 
-  /* Cream / Ivory ramp */
-  --cream-50: #fefcf9;
-  --cream-100: #faf6ef;
-  --cream-200: #f4ede2;
-  --cream-300: #e8dcc8;
+  /* Cosmic Latte ramp (warm off-white) */
+  --cream-50: #fff8e7;
+  --cream-100: #fdf2d8;
+  --cream-200: #f7e9c4;
+  --cream-300: #eedda8;
 
   /* Ivory */
-  --ivory: #fffbf3;
+  --ivory: #fff8e7;
 
-  /* Beige warm */
-  --beige-100: #f0e6d6;
-  --beige-200: #e2d4bf;
-  --beige-300: #d0bd9e;
+  /* Mocha Cream warm tones */
+  --beige-100: #e8d9be;
+  --beige-200: #d8c4a0;
+  --beige-300: #c4ab82;
 
   /* Gold accent ramp */
   --gold-700: #a67c1f;
@@ -71,12 +71,12 @@ textarea {
   --gold-400: #ddc055;
   --gold-300: #e8d080;
 
-  /* Neutral / charcoal / black */
-  --charcoal-900: #1a1512;
-  --charcoal-800: #241e1a;
-  --charcoal-700: #332b25;
-  --charcoal-600: #4a3f38;
-  --charcoal-500: #6b5d52;
+  /* Mocha Cream ramp (warm brown neutrals) */
+  --charcoal-900: #2a1d12;
+  --charcoal-800: #3a2a1a;
+  --charcoal-700: #4e3925;
+  --charcoal-600: #675238;
+  --charcoal-500: #856b4e;
 
   /* Functional colors */
   --success: #2d7a4f;
@@ -135,7 +135,7 @@ textarea {
   --bg-secondary: var(--charcoal-800);
   --bg-tertiary: var(--charcoal-700);
   --bg-card: var(--charcoal-800);
-  --bg-elevated: #2a221d;
+  --bg-elevated: #33261a;
   --text-primary: var(--cream-100);
   --text-secondary: var(--beige-200);
   --text-muted: var(--charcoal-500);
@@ -152,7 +152,7 @@ textarea {
   --bg-secondary: var(--cream-100);
   --bg-tertiary: var(--cream-200);
   --bg-card: #ffffff;
-  --bg-elevated: #fffcf6;
+  --bg-elevated: #fffcf0;
   --text-primary: var(--charcoal-900);
   --text-secondary: var(--charcoal-700);
   --text-muted: var(--charcoal-500);

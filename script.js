@@ -9,22 +9,22 @@
    ============================================ */
 const MENU_ITEMS = [
   // --- Biryani ---
-  { id: 1, name: "Chicken Biryani", category: "Biryani", price: 380, image: "https://images.pexels.com/photos/9609860/pexels-photo-9609860.jpeg?auto=compress&cs=tinysrgb&w=600", description: "Fragrant basmati rice layered with marinated chicken, saffron and traditional spices, slow-cooked to perfection.", rating: 4.8, popular: true, vegetarian: false, tags: ["spicy","traditional","rice","high-protein"] },
-  { id: 2, name: "Saffron Chicken Biryani", category: "Biryani", price: 420, image: "https://images.pexels.com/photos/33683221/pexels-photo-33683221.jpeg?auto=compress&cs=tinysrgb&w=600", description: "Aromatic saffron-infused biryani with tender chicken, caramelized onions and fresh herbs.", rating: 4.9, popular: true, vegetarian: false, tags: ["spicy","traditional","rice"] },
+  { id: 1, name: "Chicken Biryani", category: "Main Course", price: 380, image: "https://images.pexels.com/photos/9609860/pexels-photo-9609860.jpeg?auto=compress&cs=tinysrgb&w=600", description: "Fragrant basmati rice layered with marinated chicken, saffron and traditional spices, slow-cooked to perfection.", rating: 4.8, popular: true, vegetarian: false, tags: ["spicy","traditional","rice","high-protein"] },
+  { id: 2, name: "Saffron Chicken Biryani", category: "Main Course", price: 420, image: "https://images.pexels.com/photos/33683221/pexels-photo-33683221.jpeg?auto=compress&cs=tinysrgb&w=600", description: "Aromatic saffron-infused biryani with tender chicken, caramelized onions and fresh herbs.", rating: 4.9, popular: true, vegetarian: false, tags: ["spicy","traditional","rice"] },
 
   // --- Chinese ---
-  { id: 3, name: "Chicken Dumplings", category: "Chinese", price: 280, image: "https://images.pexels.com/photos/6378654/pexels-photo-6378654.jpeg?auto=compress&cs=tinysrgb&w=600", description: "Steamed dumplings filled with seasoned minced chicken, served with a spicy dipping sauce.", rating: 4.6, popular: false, vegetarian: false, tags: ["light","high-protein"] },
-  { id: 4, name: "Vegetable Spring Rolls", category: "Chinese", price: 220, image: "https://images.pexels.com/photos/38947729/pexels-photo-38947729.jpeg?auto=compress&cs=tinysrgb&w=600", description: "Crispy golden spring rolls stuffed with fresh vegetables, served with sweet chili sauce.", rating: 4.5, popular: false, vegetarian: true, tags: ["light","vegetarian"] },
-  { id: 5, name: "Vegetable Thai Curry", category: "Chinese", price: 320, image: "https://images.pexels.com/photos/31029754/pexels-photo-31029754.jpeg?auto=compress&cs=tinysrgb&w=600", description: "Creamy coconut curry with seasonal vegetables, Thai basil and jasmine rice.", rating: 4.7, popular: false, vegetarian: true, tags: ["spicy","vegetarian","light"] },
+  { id: 3, name: "Chicken Dumplings", category: "Starters", price: 280, image: "https://images.pexels.com/photos/6378654/pexels-photo-6378654.jpeg?auto=compress&cs=tinysrgb&w=600", description: "Steamed dumplings filled with seasoned minced chicken, served with a spicy dipping sauce.", rating: 4.6, popular: false, vegetarian: false, tags: ["light","high-protein"] },
+  { id: 4, name: "Vegetable Spring Rolls", category: "Starters", price: 220, image: "https://images.pexels.com/photos/38947729/pexels-photo-38947729.jpeg?auto=compress&cs=tinysrgb&w=600", description: "Crispy golden spring rolls stuffed with fresh vegetables, served with sweet chili sauce.", rating: 4.5, popular: false, vegetarian: true, tags: ["light","vegetarian"] },
+  { id: 5, name: "Vegetable Thai Curry", category: "Starters", price: 320, image: "https://images.pexels.com/photos/31029754/pexels-photo-31029754.jpeg?auto=compress&cs=tinysrgb&w=600", description: "Creamy coconut curry with seasonal vegetables, Thai basil and jasmine rice.", rating: 4.7, popular: false, vegetarian: true, tags: ["spicy","vegetarian","light"] },
 
   // --- BBQ & Tandoori ---
-  { id: 6, name: "Chicken Tikka", category: "BBQ & Tandoori", price: 340, image: "https://images.pexels.com/photos/6522616/pexels-photo-6522616.jpeg?auto=compress&cs=tinysrgb&w=600", description: "Char-grilled chicken marinated in yogurt and aromatic spices, cooked in a traditional tandoor.", rating: 4.9, popular: true, vegetarian: false, tags: ["spicy","traditional","high-protein"] },
-  { id: 7, name: "Paneer Tikka", category: "BBQ & Tandoori", price: 300, image: "https://images.pexels.com/photos/3928854/pexels-photo-3928854.png?auto=compress&cs=tinysrgb&w=600", description: "Chunks of cottage cheese marinated in spiced yogurt, grilled with bell peppers and onions.", rating: 4.7, popular: true, vegetarian: true, tags: ["spicy","traditional","vegetarian"] },
-  { id: 8, name: "Tandoori Prawns", category: "BBQ & Tandoori", price: 480, image: "https://images.pexels.com/photos/9222008/pexels-photo-9222008.jpeg?auto=compress&cs=tinysrgb&w=600", description: "Juicy prawns marinated in tandoori spices, grilled over open flame.", rating: 4.8, popular: false, vegetarian: false, tags: ["spicy","high-protein"] },
-  { id: 9, name: "Grilled Chicken Skewers", category: "BBQ & Tandoori", price: 360, image: "https://images.pexels.com/photos/5840330/pexels-photo-5840330.jpeg?auto=compress&cs=tinysrgb&w=600", description: "Tender chicken pieces on skewers, marinated and char-grilled with herbs.", rating: 4.6, popular: false, vegetarian: false, tags: ["high-protein","spicy"] },
+  { id: 6, name: "Chicken Tikka", category: "Starters", price: 340, image: "https://images.pexels.com/photos/6522616/pexels-photo-6522616.jpeg?auto=compress&cs=tinysrgb&w=600", description: "Char-grilled chicken marinated in yogurt and aromatic spices, cooked in a traditional tandoor.", rating: 4.9, popular: true, vegetarian: false, tags: ["spicy","traditional","high-protein"] },
+  { id: 7, name: "Paneer Tikka", category: "Starters", price: 300, image: "https://images.pexels.com/photos/3928854/pexels-photo-3928854.png?auto=compress&cs=tinysrgb&w=600", description: "Chunks of cottage cheese marinated in spiced yogurt, grilled with bell peppers and onions.", rating: 4.7, popular: true, vegetarian: true, tags: ["spicy","traditional","vegetarian"] },
+  { id: 8, name: "Tandoori Prawns", category: "Starters", price: 480, image: "https://images.pexels.com/photos/9222008/pexels-photo-9222008.jpeg?auto=compress&cs=tinysrgb&w=600", description: "Juicy prawns marinated in tandoori spices, grilled over open flame.", rating: 4.8, popular: false, vegetarian: false, tags: ["spicy","high-protein"] },
+  { id: 9, name: "Grilled Chicken Skewers", category: "Starters", price: 360, image: "https://images.pexels.com/photos/5840330/pexels-photo-5840330.jpeg?auto=compress&cs=tinysrgb&w=600", description: "Tender chicken pieces on skewers, marinated and char-grilled with herbs.", rating: 4.6, popular: false, vegetarian: false, tags: ["high-protein","spicy"] },
 
   // --- Shawarma ---
-  { id: 10, name: "Chicken Shawarma Platter", category: "Shawarma", price: 320, image: "https://images.pexels.com/photos/5779364/pexels-photo-5779364.jpeg?auto=compress&cs=tinysrgb&w=600", description: "Spiced chicken shawarma with garlic sauce, pickles and warm pita bread.", rating: 4.7, popular: true, vegetarian: false, tags: ["spicy","high-protein"] },
+  { id: 10, name: "Chicken Shawarma Platter", category: "Starters", price: 320, image: "https://images.pexels.com/photos/5779364/pexels-photo-5779364.jpeg?auto=compress&cs=tinysrgb&w=600", description: "Spiced chicken shawarma with garlic sauce, pickles and warm pita bread.", rating: 4.7, popular: true, vegetarian: false, tags: ["spicy","high-protein"] },
 
   // --- Starters ---
   { id: 11, name: "Creamy Tomato Soup", category: "Starters", price: 180, image: "https://images.pexels.com/photos/36909784/pexels-photo-36909784.jpeg?auto=compress&cs=tinysrgb&w=600", description: "Velvety tomato basil soup with a touch of cream, served with crusty bread.", rating: 4.4, popular: false, vegetarian: true, tags: ["light","vegetarian"] },
@@ -46,27 +46,27 @@ const MENU_ITEMS = [
   { id: 25, name: "Saffron Chicken", category: "Main Course", price: 420, image: "https://images.pexels.com/photos/33683055/pexels-photo-33683055.jpeg?auto=compress&cs=tinysrgb&w=600", description: "Chicken simmered in a saffron-infused gravy with aromatic whole spices.", rating: 4.7, popular: false, vegetarian: false, tags: ["traditional","high-protein"] },
 
   // --- Rice & Noodles ---
-  { id: 26, name: "Mushroom Risotto", category: "Rice & Noodles", price: 360, image: "https://images.pexels.com/photos/11190139/pexels-photo-11190139.jpeg?auto=compress&cs=tinysrgb&w=600", description: "Creamy arborio rice with wild mushrooms, parmesan and fresh herbs.", rating: 4.6, popular: false, vegetarian: true, tags: ["vegetarian"] },
-  { id: 27, name: "Truffle Pasta", category: "Rice & Noodles", price: 440, image: "https://images.pexels.com/photos/7491886/pexels-photo-7491886.jpeg?auto=compress&cs=tinysrgb&w=600", description: "Pasta in a luxurious truffle cream sauce with shaved black truffle.", rating: 4.8, popular: true, vegetarian: true, tags: ["vegetarian"] },
-  { id: 28, name: "Masala Dosa", category: "Rice & Noodles", price: 180, image: "https://images.pexels.com/photos/20422138/pexels-photo-20422138.jpeg?auto=compress&cs=tinysrgb&w=600", description: "Crispy rice crepe filled with spiced potato masala, served with chutneys and sambar.", rating: 4.7, popular: true, vegetarian: true, tags: ["traditional","vegetarian","light"] },
+  { id: 26, name: "Mushroom Risotto", category: "Main Course", price: 360, image: "https://images.pexels.com/photos/11190139/pexels-photo-11190139.jpeg?auto=compress&cs=tinysrgb&w=600", description: "Creamy arborio rice with wild mushrooms, parmesan and fresh herbs.", rating: 4.6, popular: false, vegetarian: true, tags: ["vegetarian"] },
+  { id: 27, name: "Truffle Pasta", category: "Main Course", price: 440, image: "https://images.pexels.com/photos/7491886/pexels-photo-7491886.jpeg?auto=compress&cs=tinysrgb&w=600", description: "Pasta in a luxurious truffle cream sauce with shaved black truffle.", rating: 4.8, popular: true, vegetarian: true, tags: ["vegetarian"] },
+  { id: 28, name: "Masala Dosa", category: "Main Course", price: 180, image: "https://images.pexels.com/photos/20422138/pexels-photo-20422138.jpeg?auto=compress&cs=tinysrgb&w=600", description: "Crispy rice crepe filled with spiced potato masala, served with chutneys and sambar.", rating: 4.7, popular: true, vegetarian: true, tags: ["traditional","vegetarian","light"] },
 
   // --- Fast Food ---
-  { id: 29, name: "Margherita Pizza", category: "Fast Food", price: 280, image: "https://images.pexels.com/photos/31596394/pexels-photo-31596394.jpeg?auto=compress&cs=tinysrgb&w=600", description: "Classic pizza with fresh mozzarella, basil and San Marzano tomato sauce.", rating: 4.6, popular: true, vegetarian: true, tags: ["vegetarian","family-sharing"] },
-  { id: 30, name: "Chicken Steak", category: "Fast Food", price: 340, image: "https://images.pexels.com/photos/36734922/pexels-photo-36734922.jpeg?auto=compress&cs=tinysrgb&w=600", description: "Grilled chicken steak with mashed potatoes and fresh salad.", rating: 4.5, popular: false, vegetarian: false, tags: ["high-protein"] },
-  { id: 31, name: "Crispy Fish & Chips", category: "Fast Food", price: 320, image: "https://images.pexels.com/photos/5863643/pexels-photo-5863643.jpeg?auto=compress&cs=tinysrgb&w=600", description: "Beer-battered fish with golden fries and tartar sauce.", rating: 4.5, popular: false, vegetarian: false, tags: ["high-protein"] },
-  { id: 32, name: "Falafel Platter", category: "Fast Food", price: 280, image: "https://images.pexels.com/photos/12814859/pexels-photo-12814859.jpeg?auto=compress&cs=tinysrgb&w=600", description: "Crispy falafel with hummus, salad, pita and tahini drizzle.", rating: 4.6, popular: false, vegetarian: true, tags: ["vegetarian","light"] },
-  { id: 33, name: "Kabab Platter", category: "Fast Food", price: 460, image: "https://images.pexels.com/photos/7340982/pexels-photo-7340982.jpeg?auto=compress&cs=tinysrgb&w=600", description: "Assorted grilled kebabs with onions, peppers and mint chutney.", rating: 4.7, popular: false, vegetarian: false, tags: ["spicy","high-protein","family-sharing"] },
-  { id: 34, name: "Chicken Alfredo Pasta", category: "Fast Food", price: 340, image: "https://images.pexels.com/photos/11220209/pexels-photo-11220209.jpeg?auto=compress&cs=tinysrgb&w=600", description: "Fettuccine in creamy alfredo sauce with grilled chicken and parmesan.", rating: 4.6, popular: false, vegetarian: false, tags: ["high-protein"] },
+  { id: 29, name: "Margherita Pizza", category: "Main Course", price: 280, image: "https://images.pexels.com/photos/31596394/pexels-photo-31596394.jpeg?auto=compress&cs=tinysrgb&w=600", description: "Classic pizza with fresh mozzarella, basil and San Marzano tomato sauce.", rating: 4.6, popular: true, vegetarian: true, tags: ["vegetarian","family-sharing"] },
+  { id: 30, name: "Chicken Steak", category: "Main Course", price: 340, image: "https://images.pexels.com/photos/36734922/pexels-photo-36734922.jpeg?auto=compress&cs=tinysrgb&w=600", description: "Grilled chicken steak with mashed potatoes and fresh salad.", rating: 4.5, popular: false, vegetarian: false, tags: ["high-protein"] },
+  { id: 31, name: "Crispy Fish & Chips", category: "Main Course", price: 320, image: "https://images.pexels.com/photos/5863643/pexels-photo-5863643.jpeg?auto=compress&cs=tinysrgb&w=600", description: "Beer-battered fish with golden fries and tartar sauce.", rating: 4.5, popular: false, vegetarian: false, tags: ["high-protein"] },
+  { id: 32, name: "Falafel Platter", category: "Main Course", price: 280, image: "https://images.pexels.com/photos/12814859/pexels-photo-12814859.jpeg?auto=compress&cs=tinysrgb&w=600", description: "Crispy falafel with hummus, salad, pita and tahini drizzle.", rating: 4.6, popular: false, vegetarian: true, tags: ["vegetarian","light"] },
+  { id: 33, name: "Kabab Platter", category: "Main Course", price: 460, image: "https://images.pexels.com/photos/7340982/pexels-photo-7340982.jpeg?auto=compress&cs=tinysrgb&w=600", description: "Assorted grilled kebabs with onions, peppers and mint chutney.", rating: 4.7, popular: false, vegetarian: false, tags: ["spicy","high-protein","family-sharing"] },
+  { id: 34, name: "Chicken Alfredo Pasta", category: "Main Course", price: 340, image: "https://images.pexels.com/photos/11220209/pexels-photo-11220209.jpeg?auto=compress&cs=tinysrgb&w=600", description: "Fettuccine in creamy alfredo sauce with grilled chicken and parmesan.", rating: 4.6, popular: false, vegetarian: false, tags: ["high-protein"] },
 
   // --- Beverages ---
-  { id: 35, name: "Classic Mojito", category: "Beverages", price: 180, image: "https://images.pexels.com/photos/4051265/pexels-photo-4051265.jpeg?auto=compress&cs=tinysrgb&w=600", description: "Refreshing mint and lime mocktail with soda over crushed ice.", rating: 4.5, popular: false, vegetarian: true, tags: ["light","vegetarian"] },
-  { id: 36, name: "Fresh Lemonade", category: "Beverages", price: 120, image: "https://images.pexels.com/photos/8042740/pexels-photo-8042740.jpeg?auto=compress&cs=tinysrgb&w=600", description: "Hand-pressed lemonade with mint and a hint of raspberry.", rating: 4.3, popular: false, vegetarian: true, tags: ["light","vegetarian"] },
-  { id: 37, name: "Fresh Orange Juice", category: "Beverages", price: 140, image: "https://images.pexels.com/photos/17612820/pexels-photo-17612820.jpeg?auto=compress&cs=tinysrgb&w=600", description: "Freshly squeezed oranges, served chilled with ice.", rating: 4.4, popular: false, vegetarian: true, tags: ["light","vegetarian"] },
-  { id: 38, name: "Mango Mocktail", category: "Beverages", price: 200, image: "https://images.pexels.com/photos/14930536/pexels-photo-14930536.jpeg?auto=compress&cs=tinysrgb&w=600", description: "Tropical mango blend with sparkling water and fresh garnish.", rating: 4.6, popular: true, vegetarian: true, tags: ["sweet","vegetarian"] },
-  { id: 39, name: "Iced Coffee", category: "Beverages", price: 160, image: "https://images.pexels.com/photos/4869290/pexels-photo-4869290.jpeg?auto=compress&cs=tinysrgb&w=600", description: "Chilled coffee over ice with a creamy finish.", rating: 4.4, popular: false, vegetarian: true, tags: ["vegetarian"] },
-  { id: 40, name: "Cold Coffee", category: "Beverages", price: 180, image: "https://images.pexels.com/photos/7091582/pexels-photo-7091582.jpeg?auto=compress&cs=tinysrgb&w=600", description: "Thick blended cold coffee topped with whipped cream.", rating: 4.5, popular: false, vegetarian: true, tags: ["sweet","vegetarian"] },
-  { id: 41, name: "Strawberry Mojito", category: "Beverages", price: 200, image: "https://images.pexels.com/photos/12049919/pexels-photo-12049919.jpeg?auto=compress&cs=tinysrgb&w=600", description: "Strawberry and mint mocktail with lime and soda.", rating: 4.5, popular: false, vegetarian: true, tags: ["sweet","vegetarian","light"] },
-  { id: 42, name: "Passion Fruit Mocktail", category: "Beverages", price: 220, image: "https://images.pexels.com/photos/16678544/pexels-photo-16678544.jpeg?auto=compress&cs=tinysrgb&w=600", description: "Exotic passion fruit mocktail with a citrus twist.", rating: 4.4, popular: false, vegetarian: true, tags: ["sweet","vegetarian"] },
+  { id: 35, name: "Classic Mojito", category: "Drinks", price: 180, image: "https://images.pexels.com/photos/4051265/pexels-photo-4051265.jpeg?auto=compress&cs=tinysrgb&w=600", description: "Refreshing mint and lime mocktail with soda over crushed ice.", rating: 4.5, popular: false, vegetarian: true, tags: ["light","vegetarian"] },
+  { id: 36, name: "Fresh Lemonade", category: "Drinks", price: 120, image: "https://images.pexels.com/photos/8042740/pexels-photo-8042740.jpeg?auto=compress&cs=tinysrgb&w=600", description: "Hand-pressed lemonade with mint and a hint of raspberry.", rating: 4.3, popular: false, vegetarian: true, tags: ["light","vegetarian"] },
+  { id: 37, name: "Fresh Orange Juice", category: "Drinks", price: 140, image: "https://images.pexels.com/photos/17612820/pexels-photo-17612820.jpeg?auto=compress&cs=tinysrgb&w=600", description: "Freshly squeezed oranges, served chilled with ice.", rating: 4.4, popular: false, vegetarian: true, tags: ["light","vegetarian"] },
+  { id: 38, name: "Mango Mocktail", category: "Drinks", price: 200, image: "https://images.pexels.com/photos/14930536/pexels-photo-14930536.jpeg?auto=compress&cs=tinysrgb&w=600", description: "Tropical mango blend with sparkling water and fresh garnish.", rating: 4.6, popular: true, vegetarian: true, tags: ["sweet","vegetarian"] },
+  { id: 39, name: "Iced Coffee", category: "Drinks", price: 160, image: "https://images.pexels.com/photos/4869290/pexels-photo-4869290.jpeg?auto=compress&cs=tinysrgb&w=600", description: "Chilled coffee over ice with a creamy finish.", rating: 4.4, popular: false, vegetarian: true, tags: ["vegetarian"] },
+  { id: 40, name: "Cold Coffee", category: "Drinks", price: 180, image: "https://images.pexels.com/photos/7091582/pexels-photo-7091582.jpeg?auto=compress&cs=tinysrgb&w=600", description: "Thick blended cold coffee topped with whipped cream.", rating: 4.5, popular: false, vegetarian: true, tags: ["sweet","vegetarian"] },
+  { id: 41, name: "Strawberry Mojito", category: "Drinks", price: 200, image: "https://images.pexels.com/photos/12049919/pexels-photo-12049919.jpeg?auto=compress&cs=tinysrgb&w=600", description: "Strawberry and mint mocktail with lime and soda.", rating: 4.5, popular: false, vegetarian: true, tags: ["sweet","vegetarian","light"] },
+  { id: 42, name: "Passion Fruit Mocktail", category: "Drinks", price: 220, image: "https://images.pexels.com/photos/16678544/pexels-photo-16678544.jpeg?auto=compress&cs=tinysrgb&w=600", description: "Exotic passion fruit mocktail with a citrus twist.", rating: 4.4, popular: false, vegetarian: true, tags: ["sweet","vegetarian"] },
 
   // --- Desserts ---
   { id: 43, name: "Chocolate Lava Cake", category: "Desserts", price: 240, image: "https://images.pexels.com/photos/33674414/pexels-photo-33674414.jpeg?auto=compress&cs=tinysrgb&w=600", description: "Warm chocolate cake with a molten center, served with vanilla ice cream.", rating: 4.9, popular: true, vegetarian: true, tags: ["sweet","vegetarian"] },
@@ -114,7 +114,7 @@ const LS_RESERVATIONS = "elanoraReservations";
 const LS_THEME = "elanoraTheme";
 const SS_LOADER = "elanoraLoaderShown";
 
-const MENU_CATEGORIES = ["All","Biryani","Chinese","BBQ & Tandoori","Shawarma","Starters","Main Course","Rice & Noodles","Fast Food","Beverages","Desserts"];
+const MENU_CATEGORIES = ["All","Starters","Main Course","Drinks","Desserts"];
 
 /* ============================================
    STATE — loaded from localStorage
@@ -828,10 +828,10 @@ function openCart() {
 
 function closeCart() {
   var drawer = document.getElementById("cartDrawer");
-  var overlay = document.getElementById("overlay");
   if (drawer) drawer.classList.remove("drawer--open");
+  var overlay = document.getElementById("overlay");
   if (overlay && !isFavOpen()) overlay.classList.remove("overlay--open");
-  document.body.classList.remove("no-scroll");
+  if (!isFavOpen() && !document.querySelector(".modal--open")) document.body.classList.remove("no-scroll");
 }
 
 function openFavorites() {
@@ -845,10 +845,10 @@ function openFavorites() {
 
 function closeFavorites() {
   var drawer = document.getElementById("favDrawer");
-  var overlay = document.getElementById("overlay");
   if (drawer) drawer.classList.remove("drawer--open");
+  var overlay = document.getElementById("overlay");
   if (overlay && !isCartOpen()) overlay.classList.remove("overlay--open");
-  document.body.classList.remove("no-scroll");
+  if (!isCartOpen() && !document.querySelector(".modal--open")) document.body.classList.remove("no-scroll");
 }
 
 function isCartOpen() {
