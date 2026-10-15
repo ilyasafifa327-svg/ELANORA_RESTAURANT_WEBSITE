@@ -866,6 +866,16 @@ function closeAllDrawers() {
   closeFavorites();
 }
 
+/* Event delegation for drawer close buttons — robust against re-renders */
+document.addEventListener("click", function (e) {
+  var target = e.target;
+  if (!target) return;
+  var closeBtn = target.closest ? target.closest("#cartClose") : null;
+  if (closeBtn) { e.stopPropagation(); closeCart(); return; }
+  var favCloseBtn = target.closest ? target.closest("#favClose") : null;
+  if (favCloseBtn) { e.stopPropagation(); closeFavorites(); return; }
+});
+
 /* ============================================
    QUICK VIEW MODAL
    ============================================ */
